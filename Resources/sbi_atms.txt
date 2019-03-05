@@ -1,0 +1,34 @@
+{"location":"Jnana Ganga Nagar, Bengaluru, Karnataka", "coords":{"lat":12.946971, "lon":77.494297}}
+{"location":"Service Rd, Papreddy Palya, Stage 2, Nagarbhavi, Bengaluru, Karnataka 560072", "coords":{"lat":12.965229, "lon":77.511987}}
+{"location":"SBI, 17th Main, Rajarajeshwari Nagar, Bengaluru, Karnataka", "coords":{"lat":12.926583, "lon":77.515592}}
+{"location":"Hosakerehalli Lake", "coords":{"lat":12.925078, "lon":77.534818}}
+{"location":"111, 1st Cross Rd, Chikkalasandra, Bengaluru, Karnataka", "coords":{"lat":12.913198, "lon":77.550439}}
+{"location":"Karnataka Rajya Medical Vignana Parishath, 1st Cross Rd, Hosahalli Extension, Vijayanagar, Bengaluru, Karnataka 560040", "coords":{"lat":12.96824, "lon":77.537565}}
+{"location":"Krishna Priya, Vijayanagar, Bengaluru, Karnataka", "coords":{"lat":12.96824, "lon":77.53705}}
+{"location":"Global village Tech park Rd, RV Vidyaniketan, Mailasandra, Bengaluru, Karnataka 560059", "coords":{"lat":12.919724, "lon":77.503919}}
+{"location":"4th Main Rd, BEML Layout, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098", "coords":{"lat":12.922401, "lon":77.51954}}
+{"location":"Sri Krishna Condiments, Outer Ring Rd, Hosakerehalli Layout, Bengaluru, Karnataka 560085", "coords":{"lat":12.932272, "lon":77.540826}}
+{"location":"Sri V.V.S Glass Plywood & Hardware, Bengaluru, Karnataka 560026", "coords":{"lat":12.943314, "lon":77.537221}}
+{"location":"Chikkalasandra Main Rd, Sarvabhouma Nagar, Padmanabhanagar, Bengaluru, Karnataka 560061", "coords":{"lat":12.913366, "lon":77.550439}}
+{"location":"Western Union Money Transfer, BDA Lay Out, Chandra Layout Extension, Bengaluru, Karnataka 560040", "coords":{"lat":12.957701, "lon":77.526235}}
+{"location":"8th Cross Rd, BDA Lay Out, Chandra Layout Extension, Bengaluru, Karnataka 560040", "coords":{"lat":12.957869, "lon":77.525892}}
+{"location":"State Bank of India (SBI) atm, Bengaluru, Karnataka", "coords":{"lat":12.974095, "lon":77.512159}}
+{"location":"Malagalu Main Rd, Malagala, Stage 2, Nagarbhavi, Bengaluru, Karnataka 560072", "coords":{"lat":12.976604, "lon":77.515764}}
+{"location":"4th Cross Rd, CHBS Layout, Stage 2, Vijayanagar, Bengaluru, Karnataka 560040", "coords":{"lat":12.97443, "lon":77.530355}}
+{"location":"Diva Boutique, 6, 5th Cross, Amarajyothi Nagar, Vijaynagar, Bengaluru, Karnataka 560040", "coords":{"lat":12.974764, "lon":77.530183}}
+{"location":"Kolkata Super Sale, Service Rd, Marenahalli, Vijayanagar, Bengaluru, Karnataka 560040", "coords":{"lat":12.969244, "lon":77.537393}}
+{"location":"S L V Juice And Chats Chinese Junction, Magadi Main Rd, Govindaraja Nagar Ward, M C Layout, Anubhav Nagar, Vijayanagar, Bengaluru, Karnataka 560040", "coords":{"lat":12.978654, "lon":77.540783}}
+{"location":"Longas Fitting Center, 4th Cross Rd, Police Quarters, Rajajinagar, Bengaluru, Karnataka 560023", "coords":{"lat":12.974304, "lon":77.549795}}
+{"location":"SBI Bank & ATM, Mysore Rd, New Guddadahalli, Bengaluru, Karnataka", "coords":{"lat":12.954648, "lon":77.543873}}
+{"location":"148, Sirsi Rd, Chamrajpet, Bengaluru, Karnataka 560026", "coords":{"lat":12.958914, "lon":77.553486}}
+{"location":"BWSSB Water Tank", "coords":{"lat":12.960253, "lon":77.563357}}
+{"location":"Steen College Of Management, 5th Main Rd, Chamrajpet, Bengaluru, Karnataka 560018", "coords":{"lat":12.957158, "lon":77.563957}}
+{"location":"Madhu Complex, 50 Feet Rd, I Phase, Phase 1, Banashankari Stage I, Banashankari, Bengaluru, Karnataka 560085", "coords":{"lat":12.941683, "lon":77.553486}}
+{"location":"Chiru Creations, 1st H Cross Rd, Sharada Colony, Basaveshwara Nagar, Bengaluru, Karnataka 560079", "coords":{"lat":12.98869, "lon":77.534346}}
+{"location":"Royal Bank of Scotland, Bengaluru, Karnataka 560010", "coords":{"lat":12.990697, "lon":77.548765}}
+{"location":"10th Main Rd, 3 Block, Manjunatha Nagar, Rajajinagar, Bengaluru, Karnataka 560010", "coords":{"lat":12.98501, "lon":77.555889}}
+{"location":"Bhavalal Jain Jewellers, Bengaluru, Karnataka 560020", "coords":{"lat":12.985512, "lon":77.574086}}
+{"location":"UB City", "coords":{"lat":12.972088, "lon":77.594899}}
+{"location":"40th Cross Rd, 5th Block, Jayanagar, Bengaluru, Karnataka 560041", "coords":{"lat":12.920058, "lon":77.58048}}
+{"location":"Hearing Wellness Clinic, Bengaluru, Karnataka 560041", "coords":{"lat":12.920895, "lon":77.58872}}
+{"location":"Sri Gangamma Kalyana Mantapa, Bengaluru, Karnataka 560041", "coords":{"lat":12.926249, "lon":77.586316}}
