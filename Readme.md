@@ -4,6 +4,6 @@ Date: 5th March, 2019<br />
 Duration: 3 days
 
 
-Check out my online courses at Udemy: https://www.udemy.com/user/vinod-197/
+## Check out my online courses at Udemy: https://www.udemy.com/user/vinod-197/
 
-*Use the coupon code MAXOFFER to avail maximum discount*
+*Use the coupon code MAXOFFER to get maximum discount*
