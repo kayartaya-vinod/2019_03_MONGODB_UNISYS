@@ -1,0 +1,22 @@
+{
+  "name": "nodejsworkspace",
+  "version": "1.0.0",
+  "description": "Node and mongo integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kayartaya-vinod"
+  },
+  "keywords": [
+    "node",
+    "mongo"
+  ],
+  "author": "Vinod <vinod@vinod.co>",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.1.13"
+  }
+}
