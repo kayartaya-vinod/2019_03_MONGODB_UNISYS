@@ -20,13 +20,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		MongoClient mc = MongoClients.create(); // mongodb://localhost:27017
-		MongoDatabase db = mc.getDatabase("unisysdb");
 		
 		CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
                 fromProviders(PojoCodecProvider.builder().automatic(true).build()));
 		
-		db = db.withCodecRegistry(pojoCodecRegistry);
-		
+		MongoDatabase db = mc.getDatabase("unisysdb").withCodecRegistry(pojoCodecRegistry);
 		MongoCollection<Customer> customers = db.getCollection("customers", Customer.class);
 		
 		FindIterable<Customer> list = customers.find(eq("country", "Turkey"));
@@ -37,6 +35,9 @@ public class Main {
 		
 		Customer c1 = customers.find(eq("_id", new ObjectId("5c7f5b8fae6ae747acd44556"))).first();
 		System.out.println(c1);
+		
+		// c1.setState("Silesian Voivodeship");
+		// customers.updateOne(eq("_id", new ObjectId("5c7f5b8fae6ae747acd44556")), c1);
 		
 		mc.close();
 		
