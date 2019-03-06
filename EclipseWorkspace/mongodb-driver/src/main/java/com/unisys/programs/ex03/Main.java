@@ -17,10 +17,16 @@ public class Main {
 		MongoCollection<Document> salesData = db.getCollection("sales_data");
 		
 		FindIterable<Document> list = salesData.find(
-				and(gte("sales_amount", 5000), lte("sales_amount", 5500), eq("quarter", 1)));
+				and(
+						gte("sales_amount", 5000), 
+						lte("sales_amount", 5500), 
+						eq("quarter", 1)
+					)
+			);
 		for(Document d: list) {
 			System.out.println(d);
 		}
+		list.iterator().close();
 		mc.close();
 	}
 }
