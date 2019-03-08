@@ -1,0 +1,61 @@
+use admin;
+db.createUser({
+    user: 'admin',          // user defined username
+    pwd: 'Welcome#123',
+    roles: [
+        'root'              // mongodb built-in role
+    ]
+});
+
+use authdb;     // user defined db to store the users only
+db.createUser({
+    user: 'vinod',
+    pwd: 'secret',
+    roles: [
+        { role: 'readWrite', db: 'unisysdb'},
+        { role: 'read', db: 'test'}
+    ]
+});
+
+
+// need to login as admin
+mongo -u admin -p Welcome#123 --authenticationDatabase admin
+
+use authdb
+db.createRole({
+    role: 'updatePassword',
+    privileges: [
+        {
+            resource: {
+                db: 'authdb',
+                collection: ''
+            },
+            actions: ['changeOwnPassword']
+        }
+    ],
+    roles: []
+});
+
+db.grantRolesToUser('vinod', ['updatePassword']);
+
+db.changeUserPassword('vinod', 'topsecret');
+
+
+------------ Replica Set Example commands
+
+mongod --replSet rsdemo \
+    --bind_ip localhost,Vinods-MacBook-Pro.local \
+    --dbpath mongodb_data --port 27017
+
+mongod --replSet rsdemo \
+    --bind_ip localhost,Vinods-MacBook-Pro.local \
+    --dbpath data-center-1 --port 27018
+
+mongod --replSet rsdemo \
+    --bind_ip localhost,Vinods-MacBook-Pro.local \
+    --dbpath data-center-2 --port 27019
+
+// connect to any one node
+rs.initiate() // this node becomes PRIMARY
+rs.add('Vinods-MacBook-Pro.local:27018'); // adding secondary 1
+rs.add('Vinods-MacBook-Pro.local:27019'); // adding secondary 2
